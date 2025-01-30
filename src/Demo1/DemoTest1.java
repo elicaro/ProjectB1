@@ -18,25 +18,16 @@ public static void main (String args []) {
 		}	
 	
 }
+             int x = 10;
+	     int y = 20;
 
-char setGender = 'M';
-		String getGender = "";
-
-		switch (setGender) {
-		case 'M':
-		case 'm':
-			getGender = "MALE";
-			break;
-		case 'F':
-		case 'f':
-			getGender = "FEMALE";;
-			break;
-		default:
-			getGender = "OTHERS";
+		if(x > y){
+			System.out.println("Greater");
+		}else{
+			System.out.println("Less");
+	
 		}
-		System.out.println(getGender);
 	}
-
 
 	
 	}
