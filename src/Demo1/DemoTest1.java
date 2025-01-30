@@ -18,12 +18,12 @@ public static void main (String args []) {
 		}	
 	
 }
-             int x = 10;
-	     int y = 40;
+                   int x = 10;
+	           int y = 40;
 
-		if(x > y){
+		   if(x > y){
 			System.out.println("Greater");
-		}else{
+		   }else{
 			System.out.println("Less");
 	
 		}
